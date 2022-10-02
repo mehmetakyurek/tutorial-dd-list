@@ -1,0 +1,10 @@
+.dd-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: #202020;
+    border-radius: 3px;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: auto;
+}

@@ -1,0 +1,56 @@
+#root {
+    display: flex;
+    height: 100vh;
+    flex: auto;
+}
+
+
+.quotes-item {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #1A1B20;
+    cursor: pointer;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.quotes-item-header {
+    margin-left: 13px;
+    margin-bottom: 7px;
+}
+
+.quotes-item-date {
+    font-size: 14px;
+    color: #818181;
+}
+
+.quotes-item-date {
+    text-align: right;
+}
+
+.quotes-item-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    color: #d0d0d0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: fit-content;
+}
+.quotes-item:hover {
+    background-color: #2A2D37;
+}
+
+.dd-list::-webkit-scrollbar {
+    width: 3px;
+    background-color: #212121;
+}
+
+.dd-list::-webkit-scrollbar-thumb {
+    background-color: #292929;
+}

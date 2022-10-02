@@ -1,0 +1,7 @@
+.dd-container {
+    display: flex;
+    background-color: #252525;
+    flex: auto;
+    gap: 15px;
+    padding: 1rem;
+}
